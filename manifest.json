@@ -1,0 +1,22 @@
+{
+    "name": "Art Of War Quotes",
+    "version": "1.0",
+    "manifest_version": 2,
+    "description": "Display random quotes from the book, 'The Art Of War' by Sun Tzu.",
+    "offline_enabled": true,
+    "app": {
+        "background": {
+            "scripts": [
+                "js/main.js",
+                "js/app.js",
+                "js/jquery-1.10.1.min.js",
+                "js/jquery-ui-1.10.3.js"
+            ]
+        }
+    },
+    "icons": {
+        "16": "img/16.png",
+        "48": "img/48.png",
+        "128": "img/128.png"
+    }
+}
